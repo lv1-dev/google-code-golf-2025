@@ -1,0 +1,1 @@
+p=lambda g:exec("g[:]=zip(*g[1-any(g[0]):][::-1]);"*64)or[[c%~c&g[0][0]for c in r[1:-1]]for r in g[1:-1]]

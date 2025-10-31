@@ -1,0 +1,1 @@
+p=lambda g,e=enumerate:[[sum({*r[:x+2][-3:]*r[x]}&{*c}-{min(s:=sum(g,[]),key=s.count)})for x,c in e(zip(*g[:y+2][-3:]))]for y,r in e(g)]

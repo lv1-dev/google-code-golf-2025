@@ -1,0 +1,1 @@
+p=lambda g:[[len({*b})*5&5]*3for b in g]

@@ -1,0 +1,1 @@
+p=lambda g:exec('g[:]=zip(*[(x:=[*filter(int,r)]*8)[8:]and x[-r.index(x[0]):]+x or r for r in g]);'*2)or g

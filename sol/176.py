@@ -1,0 +1,1 @@
+p=lambda g:[[c|m>>j%12&4for(j,c)in enumerate(g.pop(0))]for m in(896,260,8204)]

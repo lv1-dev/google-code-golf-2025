@@ -1,0 +1,1 @@
+p=lambda g,f=lambda g:{r:0for r in zip(*g)if sum(r)}:[*f(f(g))]

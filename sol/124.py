@@ -1,0 +1,1 @@
+p=lambda a:[o for t in(2,3)for k in(0,1,2)if(o:=[(i//t*k*[0]+a[i%t])[:10]for i in range(10)])[:len(a)]==a][0]

@@ -1,0 +1,1 @@
+p=lambda g,E=enumerate:[[-(i<d<-i)&7+d%2for d,_ in E(r,-g[0].index(7))]for i,r in E(g,-g.index(g[-1]))]

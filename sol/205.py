@@ -1,0 +1,1 @@
+p=lambda a:next([[next((a[m+i//n][t+i%n] for i in r if g==i//n or l==i%n),a[m][t])for l in range(n)]for g in range(l)]for l in range(10,5,-1)for n in range(10,5,-1)for m in range(len(a)+1-l)for t in range(len(a[0])+1-n)if 0<len(r:=[i for i in range(l*n)if a[m+i//n][t+i%n]-a[m][t]])<4)

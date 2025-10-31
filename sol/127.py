@@ -1,0 +1,1 @@
+p=lambda g,e=enumerate:[[g[i&5|1][j&-4|(c<5)]+5for(j,c)in e(r)]for(i,r)in e(g)]

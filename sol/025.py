@@ -1,0 +1,1 @@
+p=lambda t,k=enumerate:(l:={o[0]:i for i,o in k(zip(*t))if min(o)})and(exec('for r in t:\n for i,v in k(r):t=l.get(v,0);r[i]=0;r[t+(i>t)-(i<t)]=v*(t>0)')or t)or[*zip(*p([*map(list,zip(*t))]))]

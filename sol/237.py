@@ -1,0 +1,1 @@
+p=lambda a,k=0:[(c:=0)or[c:=c+x for x in r][:~0]+[k:=c or k]for r in a]

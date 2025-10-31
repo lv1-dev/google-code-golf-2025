@@ -1,0 +1,1 @@
+p=lambda a:0*[exec('v[k+1]=8;'*u[k+1]*r*w[k])for u,v,w in zip(a,a[1:],a[2:])for k,r in enumerate(v[2:])]+a

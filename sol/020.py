@@ -1,0 +1,1 @@
+p=lambda g:exec('P=[(k//10,k%10,v)for k,v in enumerate(sum(g,[]))if v];y,x,_=map(min,*P)\nfor(Y,X,c)in P:g[x+y+4-X][Y-y+x]=c;'*3)or g

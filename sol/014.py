@@ -1,0 +1,1 @@
+p=lambda g:[[v for*c,v in zip(*g,r)if{*c}==S]for r in g if len(S:={*r})>2]

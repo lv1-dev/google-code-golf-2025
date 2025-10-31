@@ -1,0 +1,1 @@
+p=lambda j:[[6*(x!=r.pop(3))for x in r]for r in j]

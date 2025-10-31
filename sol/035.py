@@ -1,0 +1,1 @@
+p=lambda g:exec('g[::-1]=map(lambda k,*r:[k]+[c and k+(k:=0)or c for c in r],*g);'*4)or g

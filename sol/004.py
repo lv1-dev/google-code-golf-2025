@@ -1,0 +1,1 @@
+p=lambda g:[[j%~j&r[j-(sum(z[j:].count(max(r))for z in g)>1)]for j in range(len(g.pop(0)))]for r in g*1]

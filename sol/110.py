@@ -1,0 +1,1 @@
+p=lambda g,f=lambda g:[*zip(*(min(g,key=lambda s:[(y<1,x!=y)for x,y in zip(r,s)])for r in g))]:f(f(g))

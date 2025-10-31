@@ -1,0 +1,1 @@
+def p(e):[((d:=[e[t+n//3][x+n%3]for n in range(9)])==d[::-1])*(sum(d)>d[4]>0)*(sum(e[i+n//3][r+n%3]==d[n]for n in range(9))&8 or e[i+1][r+1]==d[4])and exec('for n in range(9):e[i+n//3][r+n%3]=d[n]')for x in range(len(e[0])-2)for r in range(len(e[0])-2)for i in range(len(e)-2)for t in range(len(e)-2)];return e

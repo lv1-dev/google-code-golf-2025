@@ -1,0 +1,1 @@
+p=lambda g:[(s:=0)or[3*((s:=s&1^(v<s&6<3)|v|s*2&4)&1>v)for v in r]for r in g]

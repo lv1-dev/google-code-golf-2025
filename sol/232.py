@@ -1,0 +1,1 @@
+p=lambda a:[(s:=0)or[(s:=x-s,5)[s<0]for x in a]for a in a]

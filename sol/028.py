@@ -1,0 +1,1 @@
+p=lambda g:[[c:=sum(g[i+2-i%5]),*[c*(i*4%7<2)]*8,c]for i in range(10)]

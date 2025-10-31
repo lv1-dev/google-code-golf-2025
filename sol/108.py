@@ -1,0 +1,1 @@
+p=lambda g,S=sorted(b'	'*4):[[g[i][j]for j in S]for i in S]

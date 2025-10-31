@@ -1,0 +1,1 @@
+p=lambda g:'8'in str(g)and(exec('g[:]=zip(*eval(str(g).replace("8%s1",1))[::-1]);'*32%('","',*[', 1","1,']*31))or(k:=p(g))and[r+[0]for r in k]+[[0]+k[-1]]or[[8]])

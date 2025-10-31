@@ -1,0 +1,1 @@
+p=lambda g:[[g[2][r.index(x)*2-3]for x in r]for r in g]

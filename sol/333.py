@@ -1,0 +1,1 @@
+import re;p=lambda g:exec(r"g[::-1]=zip(*eval(re.sub('(., )0,(?=[0, ]*3)',r'\1\1',str(g))));"*24)or g

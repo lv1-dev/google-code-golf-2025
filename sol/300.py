@@ -1,0 +1,1 @@
+p=lambda m:(f:=lambda x:[r for r in zip(*x)if max(range(1,10),key=sum(m,m).count)in r])(f(m))

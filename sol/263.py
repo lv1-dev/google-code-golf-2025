@@ -1,0 +1,1 @@
+z=zip;p=lambda g:(Y:=sorted((str(c).count('0'),c)for R in z(*3*[z(*g)])for c in z(*3*[z(*R)])))[-(Y[0][0]==Y[1][0])][1]

@@ -1,0 +1,1 @@
+p=lambda g:[r[(k:=g.count(g[0])):9]+-~k*r[:1]for r in g*2][~k-9:-k]

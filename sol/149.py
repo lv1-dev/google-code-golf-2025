@@ -1,0 +1,1 @@
+O=0,4,8;p=lambda g:[[sum(sum(v[c:c+3])for v in g[r:r+3])>6for c in O]for r in O]

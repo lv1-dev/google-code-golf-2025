@@ -1,0 +1,1 @@
+p=lambda g:[[0]*(n:=len(g)>>1)+[g[n]]+n*[0]for g in g]

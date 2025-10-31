@@ -1,0 +1,1 @@
+p=lambda g:exec("g[:]=zip(*[[v*(v in r[j-1:j+2:2])for j,v in enumerate(r)]for r in g]);"*2)or[[v*(sum(g,()).count(v)>8)for v in r]for r in g]

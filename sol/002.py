@@ -1,0 +1,1 @@
+p=lambda g,i=67:-i*g or p([(x:=0)or[x:=y%(x+4)or(i>66)*4for y in r]for r in zip(*g[::-1])],i-1)

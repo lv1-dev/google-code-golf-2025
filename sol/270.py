@@ -1,0 +1,1 @@
+import re;p=lambda g:exec(r"g[::-1]=zip(*eval(re.sub('%s((, .)+)(?=, %s)',r'0\1+%s',f'{g}')));"*8%(*'323'*4+'717'*4,))or g

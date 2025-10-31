@@ -1,0 +1,2 @@
+m=enumerate
+def p(z):o=[(i,s)for(i,r)in m(z)for(s,r)in m(r)if r];d,s=o[0];n,o=map(max,*o);return[[r[s]or 2*(d<=i<=n and 1<s<=o and(i in(d,n)or s in(2,o)or sum(z[d+1:n])+sum(r[3:o])>1))for(s,z)in m(zip(*z))]for(i,r)in m(z)]

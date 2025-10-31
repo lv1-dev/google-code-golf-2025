@@ -1,0 +1,1 @@
+p=lambda a:a+[r.__iadd__(s)[::-1]for*s,r in zip(*a[::-1],a)][::-1]

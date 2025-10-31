@@ -1,0 +1,1 @@
+p=lambda g:[[c[0]>>(sum(c)<5)for c in zip(r,r[1:]+[0],[0]+r,*g[~1%-~i:i+2])]for i,r in enumerate(g)]

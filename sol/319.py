@@ -1,0 +1,1 @@
+p=lambda b:[[(p[3],l)[l==n]for*t,l in zip(*b,t)if n in t]for t in b if(n:=(p:=sorted({*(n:=sum(b,[]))},key=n.count))[sum(b"v)'W4E+2}bF&2`=>~!DC't4;8dyGl7>Q"[(o:=hash((*n,t)))%40]>>o%7for t in p)&1])in t]

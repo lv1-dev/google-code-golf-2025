@@ -1,0 +1,1 @@
+E=enumerate;p=lambda a:min((~str(g:=[R[j:(*r,0).index(0,j)]for R in a[i:(*c,0).index(0,i)]]).count('2'),j,g)for j,c in E(zip(*a))for i,r in E(a))[2]

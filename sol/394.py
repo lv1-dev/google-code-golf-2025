@@ -1,0 +1,1 @@
+p=lambda a:[(r[(m:=len(a)//7+2):m*2]+r)[r.index(0):][:c]for r in a if(c:=r.count(0))]

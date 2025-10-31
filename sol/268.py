@@ -1,0 +1,1 @@
+def p(a,r=lambda a:[*zip(*a[::-1])]):(e,d),*f,(o,f)=[(n,a+2)for(n,p)in enumerate(a)for(a,p)in enumerate(p)if p];return a[e][d]and r(p(r(r(r(a)))))or[[p+4*(n<o)*(d-(n>e)<=a<f-3+(n>e))+4*(n<e)*(a in(d+n-e,f+e-n-4))for(a,p)in enumerate(p)]for(n,p)in enumerate(a)]

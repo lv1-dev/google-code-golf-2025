@@ -1,0 +1,1 @@
+R=0,1,2,3;p=lambda g:[[sum(max(t)for(r,s)in zip(g,g[1:])for t in zip(s[1:],s,r[1:],r)if t.count(0)+i*j%3+t[i&2|j>>1]<2)for j in R]for i in R]

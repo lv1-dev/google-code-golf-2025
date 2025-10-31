@@ -1,0 +1,1 @@
+p=lambda g:g[:1]+[[r[j]or 9*any(r[:j])*any(r[j:])for j in range(10)]for r in g[1:9]]+g[9:]

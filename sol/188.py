@@ -1,0 +1,1 @@
+p=lambda a:(b:=a[:len(a)//2])*(b+b==a>a[:2])or[*zip(*p([*zip(*a)]))]

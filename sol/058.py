@@ -1,0 +1,1 @@
+def p(g):g=range(n:=len(g));return[[3*((q:=max(~r,~c,r-n,c-n)&1)^(r==c+1<n-q-c))for c in g]for r in g]

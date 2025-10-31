@@ -1,0 +1,1 @@
+p=lambda g,R=range(121):max((all(f:=sum(s:=[r[i%11:j%11]for r in g[i//11:j//11]],g))*f.count(2),-i,s)for i in R for j in R)[2]

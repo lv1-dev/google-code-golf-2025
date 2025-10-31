@@ -1,0 +1,1 @@
+p=lambda g:[g:=[*zip(*eval(str(g).replace(x[0]+x[2:],x[1:]))[::-1])]for x in('90)','90, 0','18, 9','18, 8','09')for _ in' '*56][-1]

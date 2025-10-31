@@ -1,0 +1,1 @@
+p=lambda g:[[r[((b:=bytes(max(g,key=any))).find(s:=max(b))+b.rfind(s)-j,j)[r[j]in b]]for j in range(16)]for r in g]

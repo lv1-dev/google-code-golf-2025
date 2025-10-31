@@ -1,0 +1,1 @@
+p=lambda j:[[max(s:=sum(j,j),key=s.count)]*3]*3

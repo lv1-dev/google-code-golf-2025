@@ -1,0 +1,1 @@
+def p(g):w=len(g[0]);s=bytes(sum(g,[]));any({*s[(x:=s.find(c)):(y:=s.rfind(c)):w]}=={c}for c in s);return[r[x%w+1:y%w]for r in g[x//w+1:y//w]]

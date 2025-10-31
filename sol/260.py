@@ -1,0 +1,1 @@
+p=lambda a,R=range(10),l=99,h=-99:[(v:=a[r][c])and(s:=r-c,v%5and(k:=v,d:=s),l>s<d>(l:=s),d<s>h>(h:=s))for r in R for c in R]and[[k*(r-c in(d,l-2,h+2))for c in R]for r in R]

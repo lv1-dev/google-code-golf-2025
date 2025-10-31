@@ -1,0 +1,1 @@
+p=lambda g:max((sum(D:=[r[i%7:][:3]for r in g[i//7:][:3]],g).count(1),D)for i in range(49))[1]

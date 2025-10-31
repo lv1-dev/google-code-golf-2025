@@ -1,0 +1,1 @@
+p=lambda g,h=lambda a,t={0}:[(t:=t^{*r})|{*r}for r in a]:[[sum(x&y)for y in h(zip(*g))]for x in h(g)]

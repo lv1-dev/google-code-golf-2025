@@ -1,0 +1,1 @@
+p=lambda a:[([*{*a[0]}-{0}]*9)[r:r+16]for r in range(16)]

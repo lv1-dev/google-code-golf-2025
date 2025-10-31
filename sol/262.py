@@ -1,0 +1,1 @@
+p=lambda g:[[~b%2+a^2]*3for(b,a,_)in g]

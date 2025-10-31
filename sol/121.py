@@ -1,0 +1,1 @@
+def p(g):g=sum(g,g);a=[g[g.index(8)-o:][:3]for o in(14,1,-12)];a[1][1],*_=max(a);return a

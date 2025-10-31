@@ -1,0 +1,1 @@
+p=lambda g,R=range(10):[[g[i][j]or g[~j+(sum(map(any,g*3+[*zip(*g)]))+3>>2&1)][i]*2for j in R]for i in R]

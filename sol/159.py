@@ -1,0 +1,1 @@
+def p(e):n=0;p=enumerate;q,c=map(min,*[(a,f)for(a,f)in p(e)if~(n:=n+(2in f))for(f,t)in p(f)if-3&t]);t=n*[2];n//=3;p=range(n*3);return t,*[[2,*[e[q+a//n][c+f//n]for f in p],2]for a in p],t

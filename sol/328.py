@@ -1,0 +1,1 @@
+def p(g):R=range(len(g));return[[(D:=sorted(sum(T:=[abs(r-x),abs(c-y)])<<5|~max(T)%2*v for x in R for y in R if(v:=g[x][y])))[0]&15*(D[0]+9<D[1])for c in R]for r in R]

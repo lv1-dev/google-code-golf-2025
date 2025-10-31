@@ -1,0 +1,1 @@
+p=lambda g:exec('*s,r=filter(any,g)\nif{*r}=={2}:a=g.index(r);g[:a]=(g[a+1:]*a+[[8]*len(r)]+s)[-a:]\ng[:]=zip(*g[::-1]);'*4)or g

@@ -1,0 +1,1 @@
+p=lambda i,y=[[0]*10]:[[v*sum(w)//8%5for*w,v in zip([0]+b,b[1:]+[0],*d,b)]for*d,b in zip(y+i,i[1:]+y,i)]

@@ -1,0 +1,1 @@
+p=lambda a:[*filter(sum,a[6:]+a*9)][:len(a)]

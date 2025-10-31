@@ -1,0 +1,1 @@
+p=lambda g,r=range(30):[[max(g[A][B]%9|g[B][A]%9for A in(i,31-i)for B in(j,31-j)if A<30>B)for j in r]for i in r]

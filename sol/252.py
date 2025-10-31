@@ -1,0 +1,1 @@
+p=lambda g:[(i:=1)*[(j,j%~j&4)[i:=~i]for j in r]for r in g]

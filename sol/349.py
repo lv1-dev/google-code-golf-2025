@@ -1,0 +1,1 @@
+p=lambda a,E=enumerate:[[max(w,*(3*((u:=(*c,0).index(0,i))+(v:=(*r[j:],0).index(0)>>1)>y>=i-v>~v<x-j<v*3)|(y>u>0<=x-j<v*2)for(j,c)in E(zip(*a))for(i,r)in E(a)))for(x,w)in E(r)]for(y,r)in E(a)]

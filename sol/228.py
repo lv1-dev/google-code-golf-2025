@@ -1,0 +1,1 @@
+def p(a):(t,l),*_,(b,r)=((k//9+1,k%9-1)for k in range(81)if a[k//9][k%9]);exec('u=a[t];a[b][l::r-l+2]=u[r],u[l+2];u[l+2]=u[r]=0;t,b=b-2,t-2;'*2);return a

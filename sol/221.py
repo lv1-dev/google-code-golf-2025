@@ -1,0 +1,1 @@
+def p(g):v=str(g).count('0')*3;return[(g[i%3]*(9+~i//3*v//3)+[0]*v)[:v]for i in range(v)]

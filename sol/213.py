@@ -1,0 +1,1 @@
+p=lambda a:[*zip(*(len({*(b:=[sum(s)for r in a if len(s:={*r}-{0,5})==1])})>1and[b]*len(b)or p(zip(*a))))]

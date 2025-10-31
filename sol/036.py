@@ -1,0 +1,1 @@
+p=lambda g:(f:=lambda m:[r for r in zip(*m)if{*r}-{*sum(g[:5]+g[-5:],[])}])(f(g))

@@ -1,0 +1,1 @@
+p=lambda g:[[v+2*(v<w in r)for w,v in zip(max(g),r)]for r in g]

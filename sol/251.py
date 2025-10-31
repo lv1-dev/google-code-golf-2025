@@ -1,0 +1,1 @@
+p=lambda g,i=7:-i*g or p([(x:=0)or[x:=~1>>x&y or i>6for y in r]for r in zip(*g[::-1])],i-1)

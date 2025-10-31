@@ -1,0 +1,1 @@
+p=lambda g,R=range(9):[[3*(r&8|r^c<4)for c in R][::1-g[1][2]|1]for r in R][::1-g[2][1]|1]

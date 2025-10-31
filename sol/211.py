@@ -1,0 +1,1 @@
+p=lambda a:[r[::-1]+r for r in(a[::-1]+a)*2][:9]

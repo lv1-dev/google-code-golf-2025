@@ -1,0 +1,1 @@
+p=lambda g:[[r*(5>(f:=sum(g,g).count)(r))|y*(5>f(y))for y in g[0]]for(r,*_)in g]

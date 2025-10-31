@@ -1,0 +1,1 @@
+p=lambda a:-~(y:=a.index(r:=max(a)))*[([4,0]*8)[r<r[1::2]:][:len(r)]]+a[y:-1]

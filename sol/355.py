@@ -1,0 +1,1 @@
+p=lambda g:[sorted(range(10),key=lambda k:-sum((k in r)*(k in t)-(k==v)for r in g for*t,v in zip(*g,r)))[1:2]]

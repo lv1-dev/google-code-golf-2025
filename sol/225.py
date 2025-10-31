@@ -1,0 +1,1 @@
+p=lambda a,n=0,R=range(6):a[i:=n//6][j:=n%6]and[[a[y][x]+(x-j&y-i&2>0)*a[i+(y<i)][j+(x<j)]for x in R]for y in R]or p(a,n+1)

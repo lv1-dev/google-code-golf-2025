@@ -1,0 +1,1 @@
+p=lambda g,k=198:(l:=k//20)and p([*zip(*(h:=eval(str(g).replace(l*'5, ',f"{k*2%5},"*l))))][::-1],k-5-(h<g))or g

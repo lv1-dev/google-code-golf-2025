@@ -1,0 +1,1 @@
+p=lambda g:max((-f'{g}'.count('%d, '%v*3),[v])for v in sum(g,[]))[1:]

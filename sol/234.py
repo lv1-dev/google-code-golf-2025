@@ -1,0 +1,1 @@
+p=lambda g:exec('g[:]=zip(*g[::-1])\nfor r,n in zip(g,g[1:]):\n if sum(r)==max(r)!=max(n):g[:1]*=2;g.remove(r)\n'*44)or g

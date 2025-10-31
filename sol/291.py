@@ -1,0 +1,1 @@
+p=lambda g,d=1:2<len({c.count(d)for c in g})and[[d]]or p(g,d+1)

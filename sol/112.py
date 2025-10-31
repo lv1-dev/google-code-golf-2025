@@ -1,0 +1,1 @@
+p=lambda g,E=enumerate:[[[g[min(y,a-~a-y)][min(x,r.index(3)*2+1-x)]for(x,_)in E(R)]for y,R in E(g)]for a,r in E(g)if 3in r][0]

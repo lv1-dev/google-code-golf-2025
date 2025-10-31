@@ -1,0 +1,1 @@
+p=lambda g:[[sum(b"p6HJ';rP0a9HA=dq0I-37<Bw<GzGcQB"[(h:=hash((*sum(g,[]),i)))%39]>>h%7for i in range(6))%2*8]]

@@ -1,0 +1,1 @@
+import re;p=lambda g:exec("g[::-1]=zip(*eval(re.sub('0, .(?=, 0|\))','0,0',str(g))));"*8)or g

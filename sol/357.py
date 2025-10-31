@@ -1,0 +1,1 @@
+p=lambda g:[[8]*((m:=len(g[0])-1)-(k:=abs(i%(m+m)-m)))+[1]+k*[8]for i in range(-9,1)]

@@ -1,0 +1,1 @@
+p=lambda g,z=0:[[max(c,2222096>>3*(y:=y+c//8)&7)for c in r]for r in g if(z:=z+r[0]%5,y:=z)]

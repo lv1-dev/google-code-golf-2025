@@ -1,0 +1,1 @@
+p=lambda a,R=range(9):[[a[i][j]or(4in a[i][:j+3][-5:])*(4in[*zip(*a)][j][:i+3][-5:])*7for j in R]for i in R]

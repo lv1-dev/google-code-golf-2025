@@ -1,0 +1,1 @@
+p=lambda g:eval('[[g'+f' for g in g for i in{[*{*str(g)}][5:]}]'*2)

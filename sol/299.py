@@ -1,0 +1,1 @@
+p=lambda g:[[(i,i%6+2)[2in b]for i in g[0]]for b in g]

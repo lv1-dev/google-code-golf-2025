@@ -1,0 +1,1 @@
+p=lambda g:7<sum(max(g))and[(c[0]*3%6,c[1]%2*3,*c)for*c,_,_ in g]or[*zip(*p([*zip(*g)]))]

@@ -1,0 +1,1 @@
+p=lambda g:[c*[v]for r in g if(c:=r.count(v:=min(F:=sum(g,[0]*28),key=F.count)))]

@@ -1,0 +1,1 @@
+p=lambda g,_=range(10):[[7172>>abs(d:=r*10+c-(h:=sum(g,[])).index(m:=min(h,key=h.count)))&2|m*(d==0)for c in _]for r in _]

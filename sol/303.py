@@ -1,0 +1,1 @@
+p=lambda g:[[v|~any(r)-any(c)&2for*c,v in zip(*g,r)]for r in g]

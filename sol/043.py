@@ -1,0 +1,1 @@
+p=lambda g:[[v^t+r[9]&2for t,v in zip(g[0],r)]for r in g]

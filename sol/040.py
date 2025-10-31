@@ -1,0 +1,1 @@
+p=lambda g,R=range(10):[[g[i//5*9][j//5*9]%3**g[i][j]for j in R]for i in R]

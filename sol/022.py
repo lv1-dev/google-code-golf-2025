@@ -1,0 +1,1 @@
+p=lambda g:[[*map(max,*(s[i+o:][:3]for i in range(121)if(s:=sum(g,[]))[i]==5))]for o in(-12,-1,10)]

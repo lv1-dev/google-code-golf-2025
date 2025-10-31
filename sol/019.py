@@ -1,0 +1,1 @@
+import re;p=lambda g:(g:=[r*2for r in g]*2,exec("g[:]=zip(*eval(re.sub(f'0(?=.{{{len(g[0])*3-2}}}[1-79])','8',f'{g}'))[::-1]);"*4))[0]

@@ -1,0 +1,1 @@
+def p(a):n=range(len(a));p,(x,y),r=[(i,j)for i in n for j in n if a[i][j]];return[[a[x][y]*(max(x-i,i-x,y-j,j-y)%(x-p[0])<1)for j in n]for i in n]

@@ -1,0 +1,1 @@
+p=lambda g:[exec('g[r:=r-1][x]=g[r][x:=x+g[r-1][x]%2]=2;'*(r:=g[9][x]*5))for x in range(9)]*0+g

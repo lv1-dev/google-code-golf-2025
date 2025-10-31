@@ -1,0 +1,1 @@
+def p(j):e=j.index(s:=max(j));u=j[e+1]=j[e-1];s[k:=u.index(max(u))-1]=s[k+2]=4;u[k:k+3]=4,4,4;return j

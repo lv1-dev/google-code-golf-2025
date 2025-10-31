@@ -1,0 +1,1 @@
+def p(g):*z,=zip(*g);d=2in z[0]or-1;_,*t=g[0][::d];return'8'in'%s'%g[1:]and[*zip(*p(z[::d])[::d])]or[(c,*(t:=c and[0]+t[:-1]or t))[::d]for c in z[d//2]]

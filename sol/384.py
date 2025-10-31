@@ -1,0 +1,1 @@
+p=lambda g:exec('g[:]=zip(*filter(sum,sum(zip(g,g),())));'*2)or g

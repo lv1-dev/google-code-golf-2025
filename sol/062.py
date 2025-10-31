@@ -1,0 +1,1 @@
+p=lambda g:exec('*t,s=filter(any,g)\nif{*s}=={0,2}:b=g.index(s);g[b:b+len(t)]=t[::-1]\ng[:]=zip(*g[::-1]);'*4)or eval(str(g).replace(*'03'))

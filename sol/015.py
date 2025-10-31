@@ -1,0 +1,1 @@
+p=lambda g:[g[o//9].__setitem__(o%9,x^6)for i,x in enumerate(sum(g,[]))for o in(x|8,x**3)*(0<x<3)for o in(i+o,i-o)]*0+g

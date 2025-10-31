@@ -1,0 +1,1 @@
+p=lambda g,e=enumerate:[[v*(sum(sum(R[~1%-~j:j+2])for R in g[~1%-~i:i+2])>v)for(j,v)in e(r)]for(i,r)in e(g)]

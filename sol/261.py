@@ -1,0 +1,1 @@
+p=lambda g:[[c%6for c in r]for r in[g.pop()]+g]

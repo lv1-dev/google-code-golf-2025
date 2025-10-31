@@ -1,0 +1,1 @@
+def p(r):t=enumerate;e={};[e:=e|{r:(1+(n-(a:=e.get(r,(n,p)*2))[2])//3,r,a[2],min(a[3],p))}for n,r in t(r)for p,r in t(r)];n,h,p,a=min(e.values());return[[sum(e,-h)*(n==h)for n in r[a::n][:3]]for r in r[p::n][:3]]

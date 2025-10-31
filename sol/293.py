@@ -1,0 +1,1 @@
+p=lambda g:[[t^v^r[0]or v for v,t in zip(r,g[0])]for r in g]

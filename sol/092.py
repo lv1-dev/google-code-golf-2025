@@ -1,0 +1,1 @@
+p=lambda g:exec('g[:]=zip(*([sum({*r[:i]}&{*r[i:]})or v for i,v in enumerate(r)]for r in g));'*2)or g

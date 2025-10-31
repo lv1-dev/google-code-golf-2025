@@ -1,0 +1,1 @@
+p=lambda g:[[5*(i==c)for c in'020110200'[len({*str(g)})%3::3]]for i in'012']

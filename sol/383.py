@@ -1,0 +1,1 @@
+p=lambda g:[[any(0<t.count((k:=[*{}.fromkeys(sum(g,[]))])[1])<4for t in(r,c))*k[~(v>0)]or v for*c,v in zip(*g,r)]for r in g]

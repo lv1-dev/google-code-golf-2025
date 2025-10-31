@@ -1,0 +1,1 @@
+p=lambda g,R=range(9):[[max(g[i-1+k//3%-9][j-1+k%3%-9]-k%2*4for k in R if k^4)for j in R]for i in R]

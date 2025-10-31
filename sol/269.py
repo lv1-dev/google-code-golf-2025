@@ -1,0 +1,1 @@
+p=lambda g:eval('[[g'+f' for g in g for j in{sum(g,[])}if j]'*2)

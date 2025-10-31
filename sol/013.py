@@ -1,0 +1,1 @@
+p=lambda g:g[12:]and(exec('(a,b),(c,d)=((i,m)for i,m in enumerate(map(max,g))if m);c-=a\nwhile g[a:]:g[a]=[b]*len(g[a]);b,d=d,b;a+=c')or g)or[*zip(*p([*zip(*g)]))]

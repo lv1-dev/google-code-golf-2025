@@ -1,0 +1,1 @@
+p=lambda a:len({*a[0],0})>2and[*zip(*p([*zip(*a)]))]or[[*map(min,*(q for q in a if max(r)in q))]for r in a]

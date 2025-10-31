@@ -1,0 +1,1 @@
+r=0,1,2,3;p=lambda g:[[max(g[a][b::5])or max(g[a+5][b::5])for b in r]for a in r]

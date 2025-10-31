@@ -1,0 +1,1 @@
+p=lambda g:exec("import re;*_,a,b,c=sorted('123456789',key=str(g).count)"+";g[:]=zip(*eval(re.sub(f'(?<={a}, ){c}(?=[^])]*{b})',a,f'{g}'))[::-1])"*64)or g

@@ -1,0 +1,1 @@
+p=lambda g,k=1:(v:=[c for c in zip(*[r for r in g if k in r])if k in c])==v[::-1]and[*zip(*v)]or p(g,k+1)

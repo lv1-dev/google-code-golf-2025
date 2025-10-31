@@ -1,0 +1,1 @@
+p=lambda g,k=87:-k*g or p([[v or sum({*r[i:]*(k<40)}&{r[0]})for(i,v)in enumerate(r)]for r in zip(*g[0in g[0]:])][::-1],k-1)

@@ -1,0 +1,1 @@
+import re;p=lambda g:exec("y,x={*f'{g}'}-{*'[], 08'}"+";g[:]=zip(*eval(re.sub(x+', 0|0, '+y,x+','+y,str(g)))[::-1])"*160)or g

@@ -1,0 +1,1 @@
+p=lambda g:[[(s:=g[0][:4+all(g[0])]*3)[i]]*i+s[i:10]for i in range(10)]

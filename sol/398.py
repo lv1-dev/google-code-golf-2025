@@ -1,0 +1,1 @@
+def p(g):g,=g;q=len({*g}-{0})*[0]*5;return[q:=q[1:]+[v]for v in g+q[5:]]

@@ -1,0 +1,1 @@
+p=lambda g,z=zip:[[x and(c<(S:=sorted({*z(*g)}))[2])*2|(c>S[-2])for x,c in z(r,z(*g))]for r in g]

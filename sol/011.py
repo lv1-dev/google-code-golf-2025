@@ -1,0 +1,1 @@
+p=lambda j,r=range(11):[[[5,j[(m:=45-sum(j[a][b]//8*(a&-4|b>>2)for a in r for b in r))&-4|y>>2][m%4*4|x>>2]][x%4<3>y%4]for x in r]for y in r]

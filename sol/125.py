@@ -1,0 +1,1 @@
+p=lambda a,E=enumerate:[[v-v//8*(4*min(6in s for s in(r[:j],r[j:],c[:i],c[i:]))or 5*any(6in q[~1%-~j:j+2]for q in a[~1%-~i:i+2]))for*c,(j,v)in zip(*a,E(r))]for i,r in E(a)]

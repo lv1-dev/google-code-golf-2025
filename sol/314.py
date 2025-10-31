@@ -1,0 +1,1 @@
+p=lambda g,R=range(8):[[g[i-3*(5>i>1<g[i+3][j])][j-3*(5>j>1<g[i][j+3])]for j in R]for i in R]

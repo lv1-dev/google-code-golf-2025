@@ -1,0 +1,1 @@
+r=range(21);p=lambda g,n=4:n*n-len(s:={((i%n,j%n),v)for i in r for j in r if(v:=g[i][j])})and p(g,n+1)or[[dict(s)[i%n,j%n]for j in r]for i in r]

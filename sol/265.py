@@ -1,0 +1,1 @@
+import re;p=lambda g,s=re.sub:exec("g[::-1]=zip(*eval(s('0(?=,.[02].{52}[02],.[02])','2',f'{g}')));"*4)or[g,eval(s('2, 2, 2','2,2,0',f'{g}'))][sum(g[8])==61]

@@ -1,0 +1,1 @@
+p=lambda g:g*0!=0and[*map(p,g)]or g%3%g//2*13^g

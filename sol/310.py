@@ -1,0 +1,1 @@
+p=lambda g:[*eval("zip(*filter({min(f:=sum(g,[]),key=f.count)}.issubset,"*2+"g))))")]

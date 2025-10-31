@@ -1,0 +1,1 @@
+p=lambda j:[[b"__	"[x]for x in j[0]]]*3

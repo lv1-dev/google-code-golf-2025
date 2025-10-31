@@ -1,0 +1,1 @@
+p=lambda g,e=enumerate:[[r[j]|sum({*c[:i]}&{*c[i::3]}|{*r[:j]}&{*r[j::3]})for j,c in e(zip(*g))]for i,r in e(g)]

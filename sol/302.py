@@ -1,0 +1,1 @@
+p=lambda g:g+0*[y[j]-5+j*y[j-1]or exec('j+=1;_=y[j:].index(5);y[j:j+_]=[_+5]*_')for j in range(10)for y in g]

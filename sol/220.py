@@ -1,0 +1,1 @@
+p=lambda g:exec('g[::-1]=[[c or 6%~k&6or k>0for(k,c)in zip([0]+r,r)]for*r,in zip(*g)];'*4)or g

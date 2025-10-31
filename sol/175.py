@@ -1,0 +1,1 @@
+p=lambda a,R=range(21):[[a[i][j]|a[j][i]or a[0][j!=i]for j in R]for i in R]

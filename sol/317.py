@@ -1,0 +1,1 @@
+p=lambda g,R=b"":[[g[i][j]>0for j in R]for i in R]

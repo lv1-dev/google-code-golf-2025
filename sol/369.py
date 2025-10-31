@@ -1,0 +1,1 @@
+p=lambda g:exec("for x in'03',('3, 3','2,2'),('3, 2',y:='1,1'),('1, 2',y):"+"g[::-1]=zip(*eval(str(g).replace(*x)));"*4)or g

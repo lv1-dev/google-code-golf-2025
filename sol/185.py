@@ -1,0 +1,1 @@
+def p(a):f=lambda z:[x for x in z if{*x}-{*a[0]}];t=f(zip(*f(a)));return[[u[i]*(u[i]==v[i]==u[i+1]==v[i+1]!=max(a[0]))for(u,v)in zip(t,t[1:])]for i in(0,1,2)]

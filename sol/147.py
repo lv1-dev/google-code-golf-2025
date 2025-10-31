@@ -1,0 +1,1 @@
+p=lambda g,E=enumerate:[[r[j]and(sum(r[~1%-~j:j+2]+[*c[~1%-~i:i+2]])>6)*5+3for(j,c)in E(zip(*g))]for(i,r)in E(g)]

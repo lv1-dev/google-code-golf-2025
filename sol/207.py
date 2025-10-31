@@ -1,0 +1,1 @@
+p=lambda a:min(c:=[(a[i][j:j+2],a[i+1][j:j+2])for i in(0,3)for j in(0,3)],key=c.count)

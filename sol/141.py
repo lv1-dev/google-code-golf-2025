@@ -1,0 +1,1 @@
+p=lambda a:(r:=range(len(m:=max(a))))and[[m[y:=m.index(max(m))]*(i-a.index(m)in(j-y,y-j))for j in r]for i in r]

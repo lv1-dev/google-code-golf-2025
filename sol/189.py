@@ -1,0 +1,1 @@
+p=lambda a,r=range(3,9):[[a[i-3*(f:=a[2]<[8])][j-3*(g:=a[f][2]<8)]%2*a[7*f+i//6][7*g+j//6]for j in r]for i in r]

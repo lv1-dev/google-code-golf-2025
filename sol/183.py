@@ -1,0 +1,1 @@
+def p(a):r=range(2,n:=len(a)-2);return[[a[-(i>n/2)][-(j>n/2)]*a[i][j]/8for j in r]for i in r]

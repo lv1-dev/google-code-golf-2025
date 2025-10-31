@@ -1,0 +1,1 @@
+p=lambda d:max((len(a:=sum(r:=[r[l:s+1]for r in d[e:u+1]],[]))*all(r[0]*r[-1]for r in r)*all(r[0]+r[-1]),[[r and sum(set(a))-a[0]for r in r]for r in r])for u in range(len(d))for e in range(u)for s in range(len(d[0]))for l in range(s))[1]

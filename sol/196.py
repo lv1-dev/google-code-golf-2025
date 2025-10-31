@@ -1,0 +1,1 @@
+p=lambda d,t=52:t and p([[c^(c%3>t or-~a%3==c<=(t<8))*2for a,c in zip((2,)+r,r)]for r in zip(*d[::-1])],t-1)or d
